@@ -1,6 +1,6 @@
 ## JSBridge
 
-实现iOS和JS通信类似RPC
+实现iOS和JS通信类似Http请求
 
 ## 类介绍
 Bridge 管理请求和响应，管理注册模块和分发请求到注册模块
