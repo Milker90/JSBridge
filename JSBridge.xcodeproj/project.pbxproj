@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BFE0C729692DAD00465179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0C629692DAD00465179 /* AppDelegate.swift */; };
+		11BFE0C929692DAD00465179 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0C829692DAD00465179 /* SceneDelegate.swift */; };
+		11BFE0CB29692DAD00465179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0CA29692DAD00465179 /* ViewController.swift */; };
+		11BFE0CE29692DAD00465179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BFE0CC29692DAD00465179 /* Main.storyboard */; };
+		11BFE0D029692DB000465179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BFE0CF29692DB000465179 /* Assets.xcassets */; };
+		11BFE0D329692DB000465179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BFE0D129692DB000465179 /* LaunchScreen.storyboard */; };
+		11BFE0DE29692DB100465179 /* JSBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0DD29692DB100465179 /* JSBridgeTests.swift */; };
+		11BFE0E829692DB100465179 /* JSBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0E729692DB100465179 /* JSBridgeUITests.swift */; };
+		11BFE0EA29692DB100465179 /* JSBridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0E929692DB100465179 /* JSBridgeUITestsLaunchTests.swift */; };
+		11BFE0FC29692DD800465179 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0F729692DD800465179 /* Bridge.swift */; };
+		11BFE0FD29692DD800465179 /* BridgeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0F829692DD800465179 /* BridgeModule.swift */; };
+		11BFE0FE29692DD800465179 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 11BFE0F929692DD800465179 /* bridge.js */; };
+		11BFE0FF29692DD800465179 /* BridgeReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0FA29692DD800465179 /* BridgeReq.swift */; };
+		11BFE10029692DD800465179 /* BridgeRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0FB29692DD800465179 /* BridgeRes.swift */; };
+		11BFE10229692DE300465179 /* HelloModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE10129692DE300465179 /* HelloModule.swift */; };
+		11BFE10329692E1500465179 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0F729692DD800465179 /* Bridge.swift */; };
+		11BFE10429692E1800465179 /* BridgeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0F829692DD800465179 /* BridgeModule.swift */; };
+		11BFE10529692E1A00465179 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 11BFE0F929692DD800465179 /* bridge.js */; };
+		11BFE10629692E1D00465179 /* BridgeReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0FA29692DD800465179 /* BridgeReq.swift */; };
+		11BFE10729692E1F00465179 /* BridgeRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE0FB29692DD800465179 /* BridgeRes.swift */; };
+		11BFE10829692E2300465179 /* HelloModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BFE10129692DE300465179 /* HelloModule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11BFE0DA29692DB100465179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11BFE0BB29692DAD00465179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11BFE0C229692DAD00465179;
+			remoteInfo = JSBridge;
+		};
+		11BFE0E429692DB100465179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11BFE0BB29692DAD00465179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11BFE0C229692DAD00465179;
+			remoteInfo = JSBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11BFE0C329692DAD00465179 /* JSBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BFE0C629692DAD00465179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11BFE0C829692DAD00465179 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11BFE0CA29692DAD00465179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11BFE0CD29692DAD00465179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11BFE0CF29692DB000465179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11BFE0D229692DB000465179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11BFE0D429692DB000465179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BFE0D929692DB100465179 /* JSBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BFE0DD29692DB100465179 /* JSBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSBridgeTests.swift; sourceTree = "<group>"; };
+		11BFE0E329692DB100465179 /* JSBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BFE0E729692DB100465179 /* JSBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSBridgeUITests.swift; sourceTree = "<group>"; };
+		11BFE0E929692DB100465179 /* JSBridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSBridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11BFE0F729692DD800465179 /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		11BFE0F829692DD800465179 /* BridgeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeModule.swift; sourceTree = "<group>"; };
+		11BFE0F929692DD800465179 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		11BFE0FA29692DD800465179 /* BridgeReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeReq.swift; sourceTree = "<group>"; };
+		11BFE0FB29692DD800465179 /* BridgeRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeRes.swift; sourceTree = "<group>"; };
+		11BFE10129692DE300465179 /* HelloModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloModule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11BFE0C029692DAD00465179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BFE0D629692DB100465179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BFE0E029692DB100465179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BFE0BA29692DAD00465179 = {
+			isa = PBXGroup;
+			children = (
+				11BFE0C529692DAD00465179 /* JSBridge */,
+				11BFE0DC29692DB100465179 /* JSBridgeTests */,
+				11BFE0E629692DB100465179 /* JSBridgeUITests */,
+				11BFE0C429692DAD00465179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11BFE0C429692DAD00465179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11BFE0C329692DAD00465179 /* JSBridge.app */,
+				11BFE0D929692DB100465179 /* JSBridgeTests.xctest */,
+				11BFE0E329692DB100465179 /* JSBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11BFE0C529692DAD00465179 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				11BFE0C629692DAD00465179 /* AppDelegate.swift */,
+				11BFE0C829692DAD00465179 /* SceneDelegate.swift */,
+				11BFE0CA29692DAD00465179 /* ViewController.swift */,
+				11BFE0CC29692DAD00465179 /* Main.storyboard */,
+				11BFE10129692DE300465179 /* HelloModule.swift */,
+				11BFE0F629692DD800465179 /* Bridge */,
+				11BFE0CF29692DB000465179 /* Assets.xcassets */,
+				11BFE0D129692DB000465179 /* LaunchScreen.storyboard */,
+				11BFE0D429692DB000465179 /* Info.plist */,
+			);
+			path = JSBridge;
+			sourceTree = "<group>";
+		};
+		11BFE0DC29692DB100465179 /* JSBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				11BFE0DD29692DB100465179 /* JSBridgeTests.swift */,
+			);
+			path = JSBridgeTests;
+			sourceTree = "<group>";
+		};
+		11BFE0E629692DB100465179 /* JSBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11BFE0E729692DB100465179 /* JSBridgeUITests.swift */,
+				11BFE0E929692DB100465179 /* JSBridgeUITestsLaunchTests.swift */,
+			);
+			path = JSBridgeUITests;
+			sourceTree = "<group>";
+		};
+		11BFE0F629692DD800465179 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				11BFE0F729692DD800465179 /* Bridge.swift */,
+				11BFE0F829692DD800465179 /* BridgeModule.swift */,
+				11BFE0F929692DD800465179 /* bridge.js */,
+				11BFE0FA29692DD800465179 /* BridgeReq.swift */,
+				11BFE0FB29692DD800465179 /* BridgeRes.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11BFE0C229692DAD00465179 /* JSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BFE0ED29692DB100465179 /* Build configuration list for PBXNativeTarget "JSBridge" */;
+			buildPhases = (
+				11BFE0BF29692DAD00465179 /* Sources */,
+				11BFE0C029692DAD00465179 /* Frameworks */,
+				11BFE0C129692DAD00465179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSBridge;
+			productName = JSBridge;
+			productReference = 11BFE0C329692DAD00465179 /* JSBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11BFE0D829692DB100465179 /* JSBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BFE0F029692DB100465179 /* Build configuration list for PBXNativeTarget "JSBridgeTests" */;
+			buildPhases = (
+				11BFE0D529692DB100465179 /* Sources */,
+				11BFE0D629692DB100465179 /* Frameworks */,
+				11BFE0D729692DB100465179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11BFE0DB29692DB100465179 /* PBXTargetDependency */,
+			);
+			name = JSBridgeTests;
+			productName = JSBridgeTests;
+			productReference = 11BFE0D929692DB100465179 /* JSBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11BFE0E229692DB100465179 /* JSBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BFE0F329692DB100465179 /* Build configuration list for PBXNativeTarget "JSBridgeUITests" */;
+			buildPhases = (
+				11BFE0DF29692DB100465179 /* Sources */,
+				11BFE0E029692DB100465179 /* Frameworks */,
+				11BFE0E129692DB100465179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11BFE0E529692DB100465179 /* PBXTargetDependency */,
+			);
+			name = JSBridgeUITests;
+			productName = JSBridgeUITests;
+			productReference = 11BFE0E329692DB100465179 /* JSBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11BFE0BB29692DAD00465179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					11BFE0C229692DAD00465179 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					11BFE0D829692DB100465179 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 11BFE0C229692DAD00465179;
+					};
+					11BFE0E229692DB100465179 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 11BFE0C229692DAD00465179;
+					};
+				};
+			};
+			buildConfigurationList = 11BFE0BE29692DAD00465179 /* Build configuration list for PBXProject "JSBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11BFE0BA29692DAD00465179;
+			productRefGroup = 11BFE0C429692DAD00465179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11BFE0C229692DAD00465179 /* JSBridge */,
+				11BFE0D829692DB100465179 /* JSBridgeTests */,
+				11BFE0E229692DB100465179 /* JSBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11BFE0C129692DAD00465179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BFE0D329692DB000465179 /* LaunchScreen.storyboard in Resources */,
+				11BFE0FE29692DD800465179 /* bridge.js in Resources */,
+				11BFE0D029692DB000465179 /* Assets.xcassets in Resources */,
+				11BFE0CE29692DAD00465179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BFE0D729692DB100465179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BFE10529692E1A00465179 /* bridge.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BFE0E129692DB100465179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11BFE0BF29692DAD00465179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BFE0FC29692DD800465179 /* Bridge.swift in Sources */,
+				11BFE0FF29692DD800465179 /* BridgeReq.swift in Sources */,
+				11BFE0CB29692DAD00465179 /* ViewController.swift in Sources */,
+				11BFE10029692DD800465179 /* BridgeRes.swift in Sources */,
+				11BFE0C729692DAD00465179 /* AppDelegate.swift in Sources */,
+				11BFE0C929692DAD00465179 /* SceneDelegate.swift in Sources */,
+				11BFE10229692DE300465179 /* HelloModule.swift in Sources */,
+				11BFE0FD29692DD800465179 /* BridgeModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BFE0D529692DB100465179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BFE10829692E2300465179 /* HelloModule.swift in Sources */,
+				11BFE10329692E1500465179 /* Bridge.swift in Sources */,
+				11BFE10429692E1800465179 /* BridgeModule.swift in Sources */,
+				11BFE0DE29692DB100465179 /* JSBridgeTests.swift in Sources */,
+				11BFE10629692E1D00465179 /* BridgeReq.swift in Sources */,
+				11BFE10729692E1F00465179 /* BridgeRes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BFE0DF29692DB100465179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BFE0EA29692DB100465179 /* JSBridgeUITestsLaunchTests.swift in Sources */,
+				11BFE0E829692DB100465179 /* JSBridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11BFE0DB29692DB100465179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11BFE0C229692DAD00465179 /* JSBridge */;
+			targetProxy = 11BFE0DA29692DB100465179 /* PBXContainerItemProxy */;
+		};
+		11BFE0E529692DB100465179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11BFE0C229692DAD00465179 /* JSBridge */;
+			targetProxy = 11BFE0E429692DB100465179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11BFE0CC29692DAD00465179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BFE0CD29692DAD00465179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11BFE0D129692DB000465179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BFE0D229692DB000465179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11BFE0EB29692DB100465179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11BFE0EC29692DB100465179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11BFE0EE29692DB100465179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW65VAGT7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JSBridge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossmirror.JSBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11BFE0EF29692DB100465179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW65VAGT7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JSBridge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossmirror.JSBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11BFE0F129692DB100465179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW65VAGT7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossmirror.JSBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSBridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JSBridge";
+			};
+			name = Debug;
+		};
+		11BFE0F229692DB100465179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW65VAGT7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossmirror.JSBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSBridge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JSBridge";
+			};
+			name = Release;
+		};
+		11BFE0F429692DB100465179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW65VAGT7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossmirror.JSBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSBridge;
+			};
+			name = Debug;
+		};
+		11BFE0F529692DB100465179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW65VAGT7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crossmirror.JSBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSBridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11BFE0BE29692DAD00465179 /* Build configuration list for PBXProject "JSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BFE0EB29692DB100465179 /* Debug */,
+				11BFE0EC29692DB100465179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11BFE0ED29692DB100465179 /* Build configuration list for PBXNativeTarget "JSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BFE0EE29692DB100465179 /* Debug */,
+				11BFE0EF29692DB100465179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11BFE0F029692DB100465179 /* Build configuration list for PBXNativeTarget "JSBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BFE0F129692DB100465179 /* Debug */,
+				11BFE0F229692DB100465179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11BFE0F329692DB100465179 /* Build configuration list for PBXNativeTarget "JSBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11BFE0F429692DB100465179 /* Debug */,
+				11BFE0F529692DB100465179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11BFE0BB29692DAD00465179 /* Project object */;
+}
