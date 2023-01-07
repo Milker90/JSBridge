@@ -93,6 +93,12 @@ class WorldModule {
   bridge.sendReq(req)
 ```
 
+iOS运行结果
+![iOS](Images/iOS_Result.jpg)
+
+js运行结果
+![Js](Images/Js_Result.jpg)
+
 具体例子可查看工程代码
 
 ## 后续问题
